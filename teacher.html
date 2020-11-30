@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>Teacher</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="sidebar/w3_sidebar.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="regisclass/regis copy.css"><link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<bodystyle>
+
+<div class="w3-sidebar_teacher w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+  <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large" >&times;</button>
+  <div align-top="10">
+     <p><button onclick="document.location='qrlseu.html'" id="sidebar_signoutteacher" href="qrlseu.html" class="fa fa-lock "> SIGN OUT</button></p>
+  </div>
+ 
+</div>
+
+<div class="w3-teal"></div>
+  <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+  <div id= "bgnameteacher" align="center">
+    <font size="5"><b>WELCOME TEACHER</b></font>   
+</div>
+
+<form  method="post" action="createclass.html" name="sign up for beta form">
+      <div class="header">
+         <b>CREATE YOUR CLASS ROOM</b>
+      </div>
+      <div class="description">
+        <p>What Class Do You Want ?</p>
+      </div>
+      <div class="input" >
+        <input type="submit" class="button" id="submit" value="CREATE">
+      </div>
+    </form>
+    <form  method="post" action="successt.html" name="login for beta form">
+      <div class="input" >
+        <input type="submit" class="button" id="submit2" value="YOUR CLASS">
+      </div>
+    </form>
+
+    
+<script type="text/javascript" src="sidebar/sidebar.js"></script>    
+<script type="text/javascript" src="regisclass/regis.js"></script>      
+</body>
+</html>
